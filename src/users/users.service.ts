@@ -7,7 +7,7 @@ export class UsersService {
 
   // This array acts like a temporary database
   // Data will be lost when server restarts
-  private users = [];
+  private users: { id: number; name: string }[] = [];
 
   // This function returns all users
   getAllUsers() {

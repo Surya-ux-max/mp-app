@@ -1,0 +1,12 @@
+DAY 1<
+POST /users
+Body: { "name": "Surya" }
+        ↓
+UsersController
+        ↓
+UsersService
+        ↓
+users[] array
+        ↓
+Response sent back >
+
